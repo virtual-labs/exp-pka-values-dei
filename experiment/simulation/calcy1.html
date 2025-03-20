@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculation of the equivalence point</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    
+    <!-- jQuery and Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/chartjs-plugin-annotation.js"></script>
+    <style>
+        .zero {
+            margin-top: 5px;
+        }
+        canvas {
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="row zero">
+    <div id="main"> 
+        <div id="myhead">
+            <p id="masteps">Calculation of the equivalence point</p>
+        </div>
+        <hr>
+        <div class="form-group" style="margin-top: 50px;">
+            <h5>Enter the pH readings (comma-separated):</h5>
+            <input type="text" id="PhVal" class="form-control" placeholder="pH values">
+            <br>
+            <h5>Enter the burette readings (comma-separated, total NaOH added at each step):</h5>
+            <input type="text" id="VolVal" class="form-control" placeholder="Volume values (mL)">
+            <br>
+            <button class="btn btn-success" onclick="plotGraph();">Plot pH vs Volume</button>
+        </div>
+        <hr>
+        <canvas id="phChart" style="width: 700px;height: 500px;"></canvas>
+        <h5 id="HalfNutrInfo" style="color: #555;"></h5>
+    </div>
+</div>
+
+<script>
+let phChartInstance = null;  // Store the chart instance globally
+
+function plotGraph() {
+    // Get user inputs
+
+    let phValues = document.getElementById("PhVal").value.split(",").map(Number);
+    let volumeValues = document.getElementById("VolVal").value.split(",").map(Number);
+
+
+
+    if (phValues.length !== volumeValues.length || phValues.length < 2) {
+      alert("Error: Enter equal-length pH and volume values (at least 2 points).");
+      return;
+    }
+
+    // Calculate first derivative (ΔpH/ΔV) and the midpoints for volume axis
+    let derivatives = [];
+    let midVolume = [];
+
+    for (let i = 0; i < phValues.length-1; i++) {
+      let deltaPH = phValues[i+1] - phValues[i];
+      let deltaV = volumeValues[i+1] - volumeValues[i];
+      derivatives.push(deltaPH / deltaV);
+    }
+
+    // Identify equivalence point: the volume corresponding to the maximum derivative
+ 
+    let maxIndex = derivatives.indexOf(Math.max(...derivatives));   
+    let HalfNutrPoint = volumeValues.slice(1)[maxIndex];  // NaOH volume at equivalence
+
+
+    let volumeValuesSlice = volumeValues.slice(1);
+     // Convert sliced data to an array of {x, y} objects for a linear x-axis:
+    let dataPoints = volumeValuesSlice.map((vol, i) => ({ x: vol, y: derivatives[i] }));
+
+    if (phValues.length !== volumeValues.length || phValues.length < 2) {
+        alert("Error: Enter equal-length pH and volume values (at least 2 points).");
+        return;
+    }
+
+
+    let ctx = document.getElementById("phChart").getContext("2d");
+
+  if (phChartInstance) {
+    phChartInstance.destroy();
+  }
+
+  phChartInstance = new Chart(ctx, {
+    type: 'line',
+    data: {
+      datasets: [
+        {
+          label: "ΔpH / ΔV (First Derivative)",
+          data: dataPoints,
+          borderColor: "blue",
+          borderWidth: 2,
+          fill: false,
+          pointBackgroundColor: "blue",
+          pointRadius: 4
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        x: {
+          type: 'linear', // Use a linear scale so numbers are interpreted correctly
+          title: { display: true, text: "Volume of NaOH (mL)" }
+        },
+        y: {
+          title: { display: true, text: "ΔpH / ΔV" }
+        }
+      },
+      plugins: {
+        annotation: {
+          annotations: [
+            {
+              type: 'line',
+              scaleID: 'x',
+              value: HalfNutrPoint, // This value now correctly maps to the linear scale
+              borderColor: 'orange',
+              borderWidth: 2,
+              borderDash: [5, 5],
+              label: {
+                enabled: true,
+                content: `HalfNutr: ${HalfNutrPoint} mL`,
+                position: "top",
+                backgroundColor: "orange"
+              }
+            }
+          ]
+        }
+      }
+    }
+  });
+
+  // Display computed Half Neutralization info
+  document.getElementById("HalfNutrInfo").innerHTML = `Half Neutralization Point = <strong>${HalfNutrPoint/2} mL</strong>`;
+}
+</script>
+
+
+
+</body>
+</html>
