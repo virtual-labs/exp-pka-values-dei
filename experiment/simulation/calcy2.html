@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculation of pKa value</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    
+    <!-- jQuery and Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation"></script>
+    <style>
+        .zero {
+            margin-top: 5px;
+        }
+        canvas {
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="row zero">
+    <div id="main"> 
+        <div id="myhead">
+            <p id="masteps">Calculation of pKa value</p>
+        </div>
+        <hr>
+        <div class="form-group" style="margin-top: 50px;">
+            <h5>Enter the pH readings (comma-separated):</h5>
+            <input type="text" id="PhVal" class="form-control" placeholder="pH values">
+            <br>
+            <h5>Enter the burette readings (comma-separated, total NaOH added at each step):</h5>
+            <input type="text" id="VolVal" class="form-control" placeholder="Volume values (mL)">
+            <br>
+            <h5>Enter Half Neutralization Point (Volume in mL):</h5>
+            <input type="text" id="HfNPoint" class="form-control" placeholder="Volume value (mL)">
+            <br>
+            <button class="btn btn-success" onclick="plotGraph();">Plot pH vs Volume</button>
+        </div>
+        <hr>
+        <canvas id="phChart" style="width: 700px;height: 500px;"></canvas>
+        <h5 id="HalfNutrInfo" style="color: orange;"></h5>
+    </div>
+</div>
+
+<script>
+let phChartInstance = null;  // Store the chart instance globally
+
+function plotGraph() {
+    // Get user inputs
+    let phValues = document.getElementById("PhVal").value.split(",").map(Number);
+    let volumeValues = document.getElementById("VolVal").value.split(",").map(Number);
+    let HalfNutrPoint = parseFloat(document.getElementById("HfNPoint").value);  // Convert to number
+
+    if (phValues.length !== volumeValues.length || phValues.length < 2) {
+        alert("Error: Enter equal-length pH and volume values (at least 2 points).");
+        return;
+    }
+
+    if (isNaN(HalfNutrPoint) || HalfNutrPoint < Math.min(...volumeValues) || HalfNutrPoint > Math.max(...volumeValues)) {
+        alert("Error: Half Neutralization Point must be within the range of volume values.");
+        return;
+    }
+
+    // Find the pH at the Half Neutralization Point using linear interpolation
+    let phAtHalfNutr = null;
+    for (let i = 0; i < volumeValues.length - 1; i++) {
+        if (volumeValues[i] <= HalfNutrPoint && volumeValues[i + 1] >= HalfNutrPoint) {
+            // Linear Interpolation Formula: y = y1 + ((x - x1) * (y2 - y1)) / (x2 - x1)
+            phAtHalfNutr = phValues[i] + ((HalfNutrPoint - volumeValues[i]) * (phValues[i + 1] - phValues[i])) / (volumeValues[i + 1] - volumeValues[i]);
+            break;
+        }
+    }
+
+    let ctx = document.getElementById("phChart").getContext("2d");
+
+    // Destroy the existing chart before creating a new one
+    if (phChartInstance) {
+        phChartInstance.destroy();
+    }
+
+    // Create the new chart
+    phChartInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: volumeValues,  // X-axis: Volume of NaOH
+            datasets: [
+                {
+                    label: "pH Value",
+                    data: phValues,
+                    borderColor: "blue",
+                    borderWidth: 2,
+                    fill: false,
+                    pointBackgroundColor: "blue",
+                    pointRadius: 4
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                x: { title: { display: true, text: "Volume of NaOH (mL)" } },
+                y: { title: { display: true, text: "pH Value" } }
+            },
+            plugins: {
+                annotation: {
+                    annotations: [
+                        {
+                            type: 'line',
+                            mode: 'vertical',
+                            scaleID: 'x',
+                            value: HalfNutrPoint/2,
+                            borderColor: 'orange',
+                            borderWidth: 2,
+                            borderDash: [5, 5], // Vertical Dashed line
+                            label: {
+                                enabled: true,
+                                content: `HalfNutr: ${HalfNutrPoint} mL`,
+                                position: "top",
+                                backgroundColor: "orange"
+                            }
+                        },
+                        {
+                            type: 'line',
+                            mode: 'horizontal',
+                            scaleID: 'y',
+                            value: phAtHalfNutr,
+                            borderColor: 'orange',
+                            borderWidth: 2,
+                            borderDash: [5, 5], // Horizontal Dashed line
+                            label: {
+                                enabled: true,
+                                content: `pH = ${phAtHalfNutr.toFixed(2)}`,
+                                position: "right",
+                                backgroundColor: "orange"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    });
+
+    // Display the computed pH at Half Neutralization Point
+    document.getElementById("HalfNutrInfo").innerHTML = `pH at Half Neutralization Point (${HalfNutrPoint} mL) = <strong>${phAtHalfNutr.toFixed(2)}</strong>`;
+}
+</script>
+
+
+
+</body>
+</html>
