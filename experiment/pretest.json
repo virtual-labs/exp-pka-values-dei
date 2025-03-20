@@ -2,38 +2,96 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Which of the following best defines the pKa of an acid?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The concentration of hydrogen ions in the solution.",
+        "b": "The negative logarithm of the acid dissociation constant (Ka).",
+        "c": "The pH at which the acid is completely dissociated.",
+        "d": "The ratio of the conjugate base to the undissociated acid."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "b": "pKa is defined as –log(Ka), providing a measure of the acid’s strength.",
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. In a titration of a weak acid with a strong base, why is the half-equivalence point significant?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Because the acid is fully neutralized.",
+        "b": "Because the pH is equal to 7 at this point.",
+        "c": "Because the pH equals the pKa of the acid.",
+        "d": "Because the buffering capacity is at its minimum."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "c": "At the half-equivalence point, the concentration of the acid equals that of its conjugate base, meaning pH = pKa according to the Henderson-Hasselbalch equation.",
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
+    },
+    {
+      "question": "3. Which statement correctly describes the buffering region in a titration curve of a weak acid?",
+      "answers": {
+        "a": "The pH increases sharply as soon as the titrant is added.",
+        "b": "The pH remains nearly constant even with the addition of small amounts of titrant.",
+        "c": "The pH is at its minimum value.",
+        "d": "The acid is completely converted into its conjugate base."
+      },
+      "explanations": {
+        "b": "In the buffering region, the solution resists changes in pH because both the weak acid and its conjugate base are present in significant amounts.",
+      },
+      "correctAnswer": "b",
+    },
+    {
+      "question": "4. What does the Henderson-Hasselbalch equation relate in the context of acid-base titration?",
+      "answers": {
+        "a": "The volume of titrant added to the concentration of the acid.",
+        "b": "The pH, pKa, and the ratio of the concentrations of the conjugate base to the acid.",
+        "c": "The initial pH of the acid solution and the equivalence point pH.",
+        "d": "The acid dissociation constant and the strength of the titrant."
+      },
+      "explanations": {
+        "b": ": The Henderson-Hasselbalch equation is given by pH = pKa + log([A⁻]/[HA]), linking the pH to the pKa and the ratio of the conjugate base ([A⁻]) to the undissociated acid ([HA]).",
+      },
+      "correctAnswer": "b",
+    },
+    {
+      "question": "5. If the buffering region of a weak acid titration is observed around pH 4.75, what is the approximate pKa of the acid?",
+      "answers": {
+        "a": "2.0",
+        "b": "4.75",
+        "c": "7.0",
+        "d": "9.0"
+      },
+      "explanations": {
+        "b": "The buffering region’s midpoint corresponds to the pKa of the acid, so a buffering region near pH 4.75 indicates a pKa of approximately 4.75.",
+      },
+      "correctAnswer": "b",
+    },
+    {
+      "question": "6. Which of the following describes the overall shape of a titration curve for a weak acid titrated with a strong base?",
+      "answers": {
+        "a": "A rapid increase in pH from the start with no buffering region.",
+        "b": "A gradual increase in pH, followed by a flat buffering region, and then a steep rise near the equivalence point.",
+        "c": "A constant pH throughout the titration.",
+        "d": "A decreasing pH as the titrant is added."
+      },
+      "explanations": {
+        "b": "The titration curve for a weak acid typically shows a gradual increase in pH initially, a buffering (flat) region near the half-equivalence point, and a steep rise in pH as the acid is nearly completely neutralized.",
+      },
+      "correctAnswer": "b",
+    },
+    {
+      "question": "7. At the equivalence point of a titration of a weak acid with a strong base, which statement is true?",
+      "answers": {
+        "a": "The pH is equal to the pKa of the acid.",
+        "b": "All of the acid has been converted to its conjugate base.",
+        "c": "The buffering capacity is at its maximum.",
+        "d": "The pH remains constant at 7.0 regardless of the acid used."
+      },
+      "explanations": {
+        "b": "At the equivalence point, the number of moles of strong base added equals the number of moles of acid originally present, meaning the acid is completely neutralized to form its conjugate base.",
+      },
+      "correctAnswer": "b",
+    },
+    
   ]
 }
