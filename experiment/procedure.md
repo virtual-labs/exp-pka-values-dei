@@ -1,5 +1,4 @@
 ### Procedure
-
 <div class="section">
 <h2>Experimental Setup</h2>
 <ul>

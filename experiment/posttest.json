@@ -10,9 +10,9 @@
         "d": "The pH meter is malfunctioning"
       },
       "explanations": {
-        "b": "The steep rise in pH after the buffering region indicates that most of the weak acid has been neutralized, and any additional base causes a rapid increase in pH as the excess titrant determines the solution’s pH.",
+        "b": "The steep rise in pH after the buffering region indicates that most of the weak acid has been neutralized, and any additional base causes a rapid increase in pH as the excess titrant determines the solution’s pH."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "b"
     },
     {
       "question": "2. Which of the following factors is most critical for ensuring an accurate determination of the pKa value in the experiment?",
@@ -23,9 +23,9 @@
         "d": "The stirring speed of the magnetic stirrer"
       },
       "explanations": {
-        "b": "Accurate pH measurements are crucial for determining the buffering region and the half-equivalence point. Proper calibration of the pH meter ensures that the pH values recorded during titration are reliable",
+        "b": "Accurate pH measurements are crucial for determining the buffering region and the half-equivalence point. Proper calibration of the pH meter ensures that the pH values recorded during titration are reliable"
       },
-      "correctAnswer": "b",
+      "correctAnswer": "b"
     },
     {
       "question": "3. At the half-equivalence point during the titration of a weak acid with a strong base, the pH of the solution is expected to be:",
@@ -36,9 +36,9 @@
         "d": "Equal to 7 regardless of the acid"
       },
       "explanations": {
-        "b": "Explanation: At the half-equivalence point, half of the acid has been neutralized, meaning [HA] = [A⁻]. According to the Henderson-Hasselbalch equation, pH = pKa when [A⁻] equals [HA].",
+        "b": "Explanation: At the half-equivalence point, half of the acid has been neutralized, meaning [HA] = [A⁻]. According to the Henderson-Hasselbalch equation, pH = pKa when [A⁻] equals [HA]."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "b"
     },
     {
       "question": "4. If the experimental titration curve shows a significantly lower buffering capacity than expected, which of the following could be a possible cause?",
@@ -49,9 +49,9 @@
         "d": "Excessive stirring speed"
       },
       "explanations": {
-        "c": "Contamination or improper maintenance of the pH electrode can affect the accuracy of pH readings, thereby distorting the observed buffering region on the titration curve.",
+        "c": "Contamination or improper maintenance of the pH electrode can affect the accuracy of pH readings, thereby distorting the observed buffering region on the titration curve."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "c"
     },
     {
       "question": "5.  Which equation is used to calculate the pKa from the titration data in this experiment?",
@@ -62,9 +62,9 @@
         "d": "pKa = pH – log([HA]/[A⁻])"
       },
       "explanations": {
-        "b": "The Henderson-Hasselbalch equation is written as pH = pKa + log([A⁻]/[HA]). Rearranging gives pKa = pH – log([A⁻]/[HA]). At the half-equivalence point, log(1) = 0, so pKa equals the pH.",
+        "b": "The Henderson-Hasselbalch equation is written as pH = pKa + log([A⁻]/[HA]). Rearranging gives pKa = pH – log([A⁻]/[HA]). At the half-equivalence point, log(1) = 0, so pKa equals the pH."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "b"
     },
     {
       "question": "6. Which aspect of the titration curve is most useful for determining the buffering capacity of the weak acid?",
@@ -75,9 +75,9 @@
         "d": "The final plateau after complete neutralization"
       },
       "explanations": {
-        "b": "The flat (buffering) region indicates the solution’s ability to resist changes in pH despite the addition of titrant. This region, centered around the pKa, is critical for understanding the buffering capacity of the weak acid.",
+        "b": "The flat (buffering) region indicates the solution’s ability to resist changes in pH despite the addition of titrant. This region, centered around the pKa, is critical for understanding the buffering capacity of the weak acid."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "b"
     },
     {
       "question": "7.  If your experimental pKa value differs significantly from the literature value, which of the following is NOT a likely reason?",
@@ -88,9 +88,9 @@
         "d": "The theoretical definition of pKa is incorrect"
       },
       "explanations": {
-        "d": "Discrepancies in the experimental pKa can arise from measurement errors, temperature fluctuations, or titrant concentration issues. The theoretical definition of pKa is well established and is not the source of such discrepancies.",
+        "d": "Discrepancies in the experimental pKa can arise from measurement errors, temperature fluctuations, or titrant concentration issues. The theoretical definition of pKa is well established and is not the source of such discrepancies."
       },
-      "correctAnswer": "d",
+      "correctAnswer": "d"
     }
   ]
 }

@@ -10,9 +10,9 @@
         "d": "The ratio of the conjugate base to the undissociated acid."
       },
       "explanations": {
-        "b": "pKa is defined as –log(Ka), providing a measure of the acid’s strength.",
+        "b": "pKa is defined as –log(Ka), providing a measure of the acid’s strength."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "b"
     },
     {
       "question": "2. In a titration of a weak acid with a strong base, why is the half-equivalence point significant?",
@@ -23,9 +23,9 @@
         "d": "Because the buffering capacity is at its minimum."
       },
       "explanations": {
-        "c": "At the half-equivalence point, the concentration of the acid equals that of its conjugate base, meaning pH = pKa according to the Henderson-Hasselbalch equation.",
+        "c": "At the half-equivalence point, the concentration of the acid equals that of its conjugate base, meaning pH = pKa according to the Henderson-Hasselbalch equation."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "c"
     },
     {
       "question": "3. Which statement correctly describes the buffering region in a titration curve of a weak acid?",
@@ -36,9 +36,9 @@
         "d": "The acid is completely converted into its conjugate base."
       },
       "explanations": {
-        "b": "In the buffering region, the solution resists changes in pH because both the weak acid and its conjugate base are present in significant amounts.",
+        "b": "In the buffering region, the solution resists changes in pH because both the weak acid and its conjugate base are present in significant amounts."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "b"
     },
     {
       "question": "4. What does the Henderson-Hasselbalch equation relate in the context of acid-base titration?",
@@ -49,9 +49,9 @@
         "d": "The acid dissociation constant and the strength of the titrant."
       },
       "explanations": {
-        "b": ": The Henderson-Hasselbalch equation is given by pH = pKa + log([A⁻]/[HA]), linking the pH to the pKa and the ratio of the conjugate base ([A⁻]) to the undissociated acid ([HA]).",
+        "b": "The Henderson-Hasselbalch equation is given by pH = pKa + log([A⁻]/[HA]), linking the pH to the pKa and the ratio of the conjugate base ([A⁻]) to the undissociated acid ([HA])."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "b"
     },
     {
       "question": "5. If the buffering region of a weak acid titration is observed around pH 4.75, what is the approximate pKa of the acid?",
@@ -62,9 +62,9 @@
         "d": "9.0"
       },
       "explanations": {
-        "b": "The buffering region’s midpoint corresponds to the pKa of the acid, so a buffering region near pH 4.75 indicates a pKa of approximately 4.75.",
+        "b": "The buffering region’s midpoint corresponds to the pKa of the acid, so a buffering region near pH 4.75 indicates a pKa of approximately 4.75."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "b"
     },
     {
       "question": "6. Which of the following describes the overall shape of a titration curve for a weak acid titrated with a strong base?",
@@ -75,9 +75,9 @@
         "d": "A decreasing pH as the titrant is added."
       },
       "explanations": {
-        "b": "The titration curve for a weak acid typically shows a gradual increase in pH initially, a buffering (flat) region near the half-equivalence point, and a steep rise in pH as the acid is nearly completely neutralized.",
+        "b": "The titration curve for a weak acid typically shows a gradual increase in pH initially, a buffering (flat) region near the half-equivalence point, and a steep rise in pH as the acid is nearly completely neutralized."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "b"
     },
     {
       "question": "7. At the equivalence point of a titration of a weak acid with a strong base, which statement is true?",
@@ -88,10 +88,9 @@
         "d": "The pH remains constant at 7.0 regardless of the acid used."
       },
       "explanations": {
-        "b": "At the equivalence point, the number of moles of strong base added equals the number of moles of acid originally present, meaning the acid is completely neutralized to form its conjugate base.",
+        "b": "At the equivalence point, the number of moles of strong base added equals the number of moles of acid originally present, meaning the acid is completely neutralized to form its conjugate base."
       },
-      "correctAnswer": "b",
-    },
-    
+      "correctAnswer": "b"
+    }
   ]
 }
