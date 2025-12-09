@@ -24,41 +24,39 @@
 <body>
 
 <div class="row zero">
-    <div id="main"> 
+        <div id="leftPanel">
+            <button onclick=location.reload(); class="btn btn-warning" style="width:225px;margin-bottom: 15px;">Reset</button>
+            <p id="masteps">To perform this experiment, we first need to calibrate the pH meter. Click on the Calibrate button of the pH meter to perform the calibration operation.</p> <a id="nextstep" class="btn btn-success" href="calculator.html"> Next Step</a>
+        </div>
+        <div id="main"> 
       <div id="myhead">
-        <p id="masteps">To perform this experiment, we first need to calibrate the pH meter. Click on the Calibrate button of the pH meter to perform the calibration operation.</p> <a id="nextstep" class="btn btn-success" href="calculator.html"> Next Step</a>
-
-      </div>
-      <hr>
-
-
-    <span id="OpVal" style="font-family: digital-7;font-size: 32px;position: absolute;margin-top: 305px;margin-left: 21px;z-index: 5;"></span>  
+    <span id="OpVal" style="font-family: digital-7;font-size: 28px;position: absolute;margin-top: 330px;margin-left:55px;z-index: 5;"></span>  
 
     
-    <button id="Calibrate" onclick="step1();" style="position: absolute;margin-top: 360px;margin-left: 7px;width: 55px;height: 27px;z-index: 5;background: transparent; border: none;"></button>
+    <button id="Calibrate" onclick="step1();" style="position: absolute;margin-top: 385px;margin-left: 44px;width: 55px;height: 27px;z-index: 5;background: none; border: none;"></button>
 
-    <button id="Check"  onclick="step2();" style="position: absolute;margin-top: 360px;margin-left: 70px;width: 55px;height: 27px;z-index: 5;background: transparent; border: none;"></button>
+    <button id="Check"  onclick="step2();" style="position: absolute;margin-top: 385px;margin-left: 110px;width: 55px;height: 27px;z-index: 5;background: none; border: none;"></button>
 
-    <button id="KVolve"  onclick="step3();" style="position: absolute;margin-top: 230px;margin-left: 475px;width: 55px;height: 27px;z-index: 5;background: transparent; border: none;"></button>
-    <button id="RotarX"  onclick="step4();" style="position: absolute;margin-top: 370px;margin-left: 400px;width: 150px;height: 50px;z-index: 5;background: transparent; border: none;z-index: 6;"></button>
+    <button id="KVolve"  onclick="step3();" style="position: absolute;margin-top: 265px;margin-left: 520px;width: 55px;height: 27px;z-index: 5;background: none; border: none;"></button>
+    <button id="RotarX"  onclick="step4();" style="position: absolute;margin-top: 405px;margin-left: 440px;width: 150px;height: 50px;z-index: 5;background: none; border: none;z-index: 6;"></button>
 
     
 
     
     
-    <img src="imgs1/mtr.png" id="mtr" style="position: absolute; top: 412px;left: 35px; height: 125px;z-index: 3;">
-    <img src="imgs1/elrod.png" id="elrod" style="position: absolute; top: 305px;left: 190px; height: 235px;z-index: 2;">
-    <img src="imgs1/rot0.png" id="rot0" style="position: absolute; top: 430px;left: 450px; height: 110px;z-index: 1;">
-    <img src="imgs1/rot1.png" id="rot1" class="dsphdd" style="position: absolute; top: 430px;left: 450px; height: 110px;z-index: 1;">
-    <img src="imgs1/bkr0.png" id="bkr0" style="position: absolute; top: 390px;left: 490px; height: 85px;z-index: 5;">
-    <img src="imgs1/bkr1.png" id="bkr1" class="dsphdd" style="position: absolute; top: 390px;left: 490px; height: 85px;z-index: 5;">
-    <img src="imgs1/meg.png" id="magnetImage" style="position: absolute; top: 463px;left: 515px; width: 17px;z-index: 4;">
-    <img src="imgs1/drop.png" id="drop" class="dsphdd" style="position: absolute; top: 373px;left: 540px; height: 48px;width: 5px;z-index: 10;">
-    <img src="imgs1/ppt0.png" id="ppt0" style="position: absolute; top: 100px;left: 527px; height: 310px;z-index: 2;">
-    <img src="imgs1/ppt1.png" id="ppt1" class="dsphdd" style="position: absolute; top: 100px;left: 527px; height: 310px;z-index: 2;">
-    <img src="imgs1/ppt2.png" id="ppt2" class="dsphdd"  style="position: absolute; top: 100px;left: 527px; height: 310px;z-index: 2;">
-    <img src="imgs1/ppt3.png" id="ppt3" class="dsphdd"  style="position: absolute; top: 100px;left: 527px; height: 310px;z-index: 2;">
-    <img src="imgs1/pptstd.png" id="pptstd" style="position: absolute; top: 185px;left: 530px; height: 355px;">
+    <img src="imgs1/mtr.png" id="mtr" style="position: absolute; margin-top: 315px;margin-left: 25px; height: 125px;z-index: 3;">
+    <img src="imgs1/elrod.png" id="elrod" style="position: absolute; margin-top: 210px;margin-left: 180px; height: 235px;z-index: 2;">
+    <img src="imgs1/rot0.png" id="rot0" style="position: absolute; margin-top: 345px;margin-left: 442px; height: 110px;z-index: 1;">
+    <img src="imgs1/rot0.png" id="rot1" class="dsphdd" style="position: absolute; margin-top: 345px;margin-left: 442px; height: 110px;z-index: 1;">
+    <img src="imgs1/bkr0.png" id="bkr0" style="position: absolute; margin-top: 305px;margin-left: 480px; height: 85px;z-index: 5;">
+    <img src="imgs1/bkr1.png" id="bkr1" class="dsphdd" style="position: absolute; margin-top: 305px;margin-left: 480px; height: 85px;z-index: 5;">
+    <img src="imgs1/meg.png" id="magnetImage" style="position: absolute; margin-top: 378px;margin-left: 510px; width: 17px;z-index: 4;">
+    <img src="imgs1/drop.png" id="drop" class="dsphdd" style="position: absolute; top: 370px;left: 834px; height: 48px;width: 5px;z-index: 10;">
+    <img src="imgs1/ppt0.png" id="ppt0" style="position: absolute; margin-top: 15px;margin-left: 520px; height: 310px;z-index: 2;">
+    <img src="imgs1/ppt1.png" id="ppt1" class="dsphdd" style="position: absolute;  margin-top: 15px;margin-left: 520px; height: 310px;z-index: 2;">
+    <img src="imgs1/ppt2.png" id="ppt2" class="dsphdd"  style="position: absolute;  margin-top: 15px;margin-left: 520px; height: 310px;z-index: 2;">
+    <img src="imgs1/ppt3.png" id="ppt3" class="dsphdd"  style="position: absolute;  margin-top: 15px;margin-left: 520px; height: 310px;z-index: 2;">
+    <img src="imgs1/pptstd.png" id="pptstd" style="position: absolute; margin-top: 100px;margin-left: 530px; height: 355px;">
 
     
 	  
@@ -66,10 +64,10 @@
 	  
 
 
-	  <span id="lb1" style="background-color: #555;color: #fff;padding: 5px;position: absolute;margin-top: 425px;margin-left: 30px;">pH Meter</span>
+	  <span id="lb1" style="background-color: #555;color: #fff;padding: 5px;position: absolute;margin-top: 450px;margin-left: 30px;">pH Meter</span>
 	  <span id="lb1" style="background-color: #555;color: #fff;padding: 5px;position: absolute;margin-top: 195px;margin-left: 375px;z-index: 55;">Electrode</span>
-      <span id="lb1" style="background-color: #555;color: #fff;padding: 5px;position: absolute;margin-top: 425px;margin-left: 405px;">50ml Acetic Acid<br> on Magnetic Stirrers</span>
-      <span id="lb1" style="background-color: #555;color: #fff;padding: 5px;position: absolute;margin-top: 5px;margin-left: 517px;">Burette containing <br>50 mL of NaOH.</span>
+      <span id="lb1" style="background-color: #555;color: #fff;padding: 5px;position: absolute;margin-top: 465px;margin-left: 440px;">50ml Acetic Acid<br> on Magnetic Stirrers</span>
+      <span id="lb1" style="background-color: #555;color: #fff;padding: 5px;position: absolute;margin-top: 5px;margin-left: 565px;">Burette containing <br>50 mL of NaOH.</span>
 	
 
 
@@ -95,7 +93,7 @@ function step2()
     if (step==1) 
     {
     $("#OpVal").text("2.65");
-    $("#masteps").text("Now, add 2 mL of NaOH to the beaker by clicking the burette volve.");
+    $("#masteps").text("Now, add 2 mL of NaOH to the beaker by clicking the burette valve.");
     step=2;
     }
     
@@ -170,7 +168,7 @@ function step4()
     } 
     setTimeout(function () {
         $("#OpVal").text("3.21");
-        $("#masteps").text("Again, click on the burette volve to add 2mL of NaOH to the beaker and note the pH reading.");
+        $("#masteps").text("Again, click on the burette valve to add 2mL of NaOH to the beaker and note the pH reading.");
     }, 5000);
 
       
