@@ -1,0 +1,833 @@
+
+/home/runner/work/exp-pka-values-dei/exp-pka-values-dei/experiment/simulation/js/chart.js
+  13:69      warning  'module' is not defined                     no-undef
+  13:115     warning  'define' is not defined                     no-undef
+  13:126     warning  'define' is not defined                     no-undef
+  19:15283   warning  Empty block statement                       no-empty
+  19:17281   warning  Expected a 'break' statement before 'case'  no-fallthrough
+  19:17487   warning  Expected a 'break' statement before 'case'  no-fallthrough
+  19:27248   warning  's' is defined but never used               no-unused-vars
+  19:27424   warning  's' is defined but never used               no-unused-vars
+  19:29175   warning  't' is defined but never used               no-unused-vars
+  19:29226   warning  'e' is defined but never used               no-unused-vars
+  19:41611   warning  't' is defined but never used               no-unused-vars
+  19:41613   warning  'e' is defined but never used               no-unused-vars
+  19:41632   warning  't' is defined but never used               no-unused-vars
+  19:41661   warning  't' is defined but never used               no-unused-vars
+  19:41663   warning  'e' is defined but never used               no-unused-vars
+  19:41665   warning  'i' is defined but never used               no-unused-vars
+  19:41689   warning  't' is defined but never used               no-unused-vars
+  19:41691   warning  'e' is defined but never used               no-unused-vars
+  19:41693   warning  'i' is defined but never used               no-unused-vars
+  19:41858   warning  't' is defined but never used               no-unused-vars
+  19:41883   warning  't' is defined but never used               no-unused-vars
+  19:44514   warning  'e.width' is assigned to itself             no-self-assign
+  19:55446   warning  't' is defined but never used               no-unused-vars
+  19:59153   warning  't' is defined but never used               no-unused-vars
+  19:59155   warning  'e' is defined but never used               no-unused-vars
+  19:59157   warning  'i' is defined but never used               no-unused-vars
+  19:59159   warning  's' is defined but never used               no-unused-vars
+  19:63320   warning  'e' is defined but never used               no-unused-vars
+  19:70899   warning  't' is defined but never used               no-unused-vars
+  19:70901   warning  'e' is defined but never used               no-unused-vars
+  19:70932   warning  't' is defined but never used               no-unused-vars
+  19:138440  warning  'e' is defined but never used               no-unused-vars
+  19:153655  warning  'e' is defined but never used               no-unused-vars
+
+/home/runner/work/exp-pka-values-dei/exp-pka-values-dei/experiment/simulation/js/chartjs-plugin-annotation.js
+  7:69    warning  'module' is not defined                     no-undef
+  7:86    warning  'require' is not defined                    no-undef
+  7:106   warning  'require' is not defined                    no-undef
+  7:162   warning  'define' is not defined                     no-undef
+  7:173   warning  'define' is not defined                     no-undef
+  7:7096  warning  Expected a 'break' statement before 'case'  no-fallthrough
+  7:7265  warning  Expected a 'break' statement before 'case'  no-fallthrough
+
+/home/runner/work/exp-pka-values-dei/exp-pka-values-dei/experiment/simulation/js/jquery.min.js
+  2:58     warning  'module' is not defined                                                    no-undef
+  2:73     warning  'module' is not defined                                                    no-undef
+  2:6324   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6580   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7011   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7270   warning  Empty block statement                                                      no-empty
+  2:7839   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9709   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11311  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11887  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11925  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12343  warning  Empty block statement                                                      no-empty
+  2:12906  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13218  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15046  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15317  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15517  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15893  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:16598  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18982  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19073  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19133  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20435  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21049  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21160  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:23420  warning  Unnecessary escape character: \[                                           no-useless-escape
+  2:23422  warning  Unnecessary escape character: \.                                           no-useless-escape
+  2:30761  warning  Empty block statement                                                      no-empty
+  2:31981  warning  Empty block statement                                                      no-empty
+  3:7811   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:7951   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:8441   warning  Empty block statement                                                      no-empty
+  3:11852  warning  Empty block statement                                                      no-empty
+  3:14493  warning  Empty block statement                                                      no-empty
+  3:24051  warning  Empty block statement                                                      no-empty
+  3:26100  warning  Move function declaration to function body root                            no-inner-declarations
+  3:30714  warning  Empty block statement                                                      no-empty
+  4:2546   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:5062   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:11701  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:13447  warning  Empty block statement                                                      no-empty
+  4:14747  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:14827  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:15164  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:15244  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:15659  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:15915  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:16492  warning  Unnecessary escape character: \/                                           no-useless-escape
+  4:17365  warning  Unnecessary escape character: \/                                           no-useless-escape
+  4:17377  warning  Unnecessary escape character: \/                                           no-useless-escape
+  4:17610  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:20109  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:22009  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:27128  warning  Empty block statement                                                      no-empty
+  4:27205  warning  Empty block statement                                                      no-empty
+  5:812    warning  'define' is not defined                                                    no-undef
+  5:824    warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-pka-values-dei/exp-pka-values-dei/experiment/simulation/js/math-eq.js
+  1:1055     warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:3408     warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:7394     warning  'r' is defined but never used                                              no-unused-vars
+  1:7407     warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:7451     warning  'r' is defined but never used                                              no-unused-vars
+  1:9319     warning  'e' is defined but never used                                              no-unused-vars
+  1:9688     warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:12331    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:13905    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:14252    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:15232    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:15452    warning  Unnecessary escape character: \/                                           no-useless-escape
+  1:15560    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:16063    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:16694    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:17079    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:17355    warning  Unnecessary escape character: \/                                           no-useless-escape
+  1:17405    warning  'i' is defined but never used                                              no-unused-vars
+  1:18424    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:19570    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:20849    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:20985    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:21391    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:21580    warning  't' is defined but never used                                              no-unused-vars
+  1:22340    warning  't' is defined but never used                                              no-unused-vars
+  1:22384    warning  'r' is defined but never used                                              no-unused-vars
+  1:22712    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:22889    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:23722    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:24070    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:24976    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:26005    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:27693    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:28458    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:28849    warning  'e' is defined but never used                                              no-unused-vars
+  1:31622    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:31997    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:32214    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:32470    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:34045    warning  't' is defined but never used                                              no-unused-vars
+  1:35516    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:36593    warning  't' is defined but never used                                              no-unused-vars
+  1:36595    warning  'e' is defined but never used                                              no-unused-vars
+  1:37868    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:38654    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:39591    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:39895    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:40219    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:40462    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:40785    warning  't' is defined but never used                                              no-unused-vars
+  1:41009    warning  't' is defined but never used                                              no-unused-vars
+  1:41011    warning  'e' is defined but never used                                              no-unused-vars
+  1:43669    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:43916    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:44818    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:45775    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:46134    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:47449    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:47548    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:49553    warning  't' is defined but never used                                              no-unused-vars
+  1:52126    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:52437    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:52698    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:52732    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:57151    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:57455    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:57767    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:60002    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:61532    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:61862    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:63685    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:64298    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:65419    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:65454    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:65663    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:66472    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:66792    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:67748    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:68065    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:69431    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:69733    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:69996    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:71679    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:73611    warning  't' is defined but never used                                              no-unused-vars
+  1:73613    warning  'e' is defined but never used                                              no-unused-vars
+  1:73615    warning  'r' is defined but never used                                              no-unused-vars
+  1:73617    warning  'n' is defined but never used                                              no-unused-vars
+  1:73665    warning  't' is defined but never used                                              no-unused-vars
+  1:73702    warning  't' is defined but never used                                              no-unused-vars
+  1:90521    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:91183    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:93364    warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:102559   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:107025   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:115145   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:115539   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:116053   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:116314   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:116804   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:117050   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:121990   warning  'n' is defined but never used                                              no-unused-vars
+  1:128565   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:128690   warning  'n' is defined but never used                                              no-unused-vars
+  1:128942   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:129522   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:130325   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:135459   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:135927   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:136348   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:136711   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:143536   warning  't' is defined but never used                                              no-unused-vars
+  1:143634   warning  't' is defined but never used                                              no-unused-vars
+  1:147447   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:172246   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:172702   warning  'e' is defined but never used                                              no-unused-vars
+  1:173058   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:173869   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:174104   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:174137   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:174425   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:174602   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:175486   warning  Unnecessary escape character: \"                                           no-useless-escape
+  1:176512   warning  't' is defined but never used                                              no-unused-vars
+  1:176549   warning  't' is defined but never used                                              no-unused-vars
+  1:176599   warning  't' is defined but never used                                              no-unused-vars
+  1:177399   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:178069   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:180309   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:181004   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:181322   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:182068   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:182432   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:182688   warning  't' is defined but never used                                              no-unused-vars
+  1:182820   warning  't' is defined but never used                                              no-unused-vars
+  1:184414   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:185020   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:185827   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:187142   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:188990   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:190040   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:191035   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:191298   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:191415   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:191514   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:192403   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:192754   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:193714   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:195454   warning  'e' is defined but never used                                              no-unused-vars
+  1:195695   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:197051   warning  Empty block statement                                                      no-empty
+  1:198416   warning  't' is defined but never used                                              no-unused-vars
+  1:201164   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:204803   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:205276   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:205376   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:205622   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:206060   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:208329   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:209544   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:210281   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:210998   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:212888   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:216307   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:218696   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:218915   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:219261   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:219844   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:220810   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:221029   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:222139   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:222219   warning  'e' is defined but never used                                              no-unused-vars
+  1:222600   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:223610   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:223835   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:224446   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:224911   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:225530   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:226564   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:227738   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:227993   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:229442   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:230212   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:230486   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:230943   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:231218   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:231480   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:231959   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:232307   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:232710   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:234915   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:235880   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:236347   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:237528   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:237882   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:238889   warning  'e' is defined but never used                                              no-unused-vars
+  1:240080   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:242121   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:242421   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:242833   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:250388   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:250918   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:251098   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:251770   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:253078   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:254282   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:257915   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:261228   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:263552   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:264157   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:270759   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:273857   warning  Unnecessary escape character: \%                                           no-useless-escape
+  1:273884   warning  Unnecessary escape character: \}                                           no-useless-escape
+  1:274539   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:275096   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:275332   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:276572   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:277063   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:285700   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:297163   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:305233   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:306060   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:306234   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:307774   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:307993   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:308092   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:312731   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:313532   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:350463   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:351167   warning  'e' is defined but never used                                              no-unused-vars
+  1:351227   warning  'e' is defined but never used                                              no-unused-vars
+  1:351288   warning  'e' is defined but never used                                              no-unused-vars
+  1:351362   warning  't' is defined but never used                                              no-unused-vars
+  1:351364   warning  'e' is defined but never used                                              no-unused-vars
+  1:351394   warning  'e' is defined but never used                                              no-unused-vars
+  1:352411   warning  'e' is defined but never used                                              no-unused-vars
+  1:353938   warning  'e' is defined but never used                                              no-unused-vars
+  1:354019   warning  't' is defined but never used                                              no-unused-vars
+  1:354021   warning  'e' is defined but never used                                              no-unused-vars
+  1:360077   warning  'e' is defined but never used                                              no-unused-vars
+  1:361781   warning  'e' is defined but never used                                              no-unused-vars
+  1:362253   warning  Unnecessary escape character: \-                                           no-useless-escape
+  1:363492   warning  'e' is defined but never used                                              no-unused-vars
+  1:363550   warning  'e' is defined but never used                                              no-unused-vars
+  1:366180   warning  'e' is defined but never used                                              no-unused-vars
+  1:368412   warning  'e' is defined but never used                                              no-unused-vars
+  1:370860   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:371197   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:376739   warning  'e' is defined but never used                                              no-unused-vars
+  1:381566   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:382317   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:383296   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:383748   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:383773   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:388155   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:393095   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:394215   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:394767   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:395034   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:395345   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:395749   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:395848   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:396126   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:399268   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:400363   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:400617   warning  'n' is defined but never used                                              no-unused-vars
+  1:401250   warning  'n' is defined but never used                                              no-unused-vars
+  1:403945   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:404679   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:406380   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:407104   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:407361   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:413992   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:415782   warning  'e' is defined but never used                                              no-unused-vars
+  1:418079   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:421999   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:422762   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:423024   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:438421   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:442731   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:445657   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:446918   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:447915   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:449844   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:452961   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:453762   warning  't' is defined but never used                                              no-unused-vars
+  1:453764   warning  'e' is defined but never used                                              no-unused-vars
+  1:453766   warning  'r' is defined but never used                                              no-unused-vars
+  1:453768   warning  'n' is defined but never used                                              no-unused-vars
+  1:454954   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:457455   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:458178   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:458971   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:459650   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:459749   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:460268   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:460367   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:460893   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:460992   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:461637   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:461736   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:462244   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:462343   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:463145   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:478036   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:479497   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:516903   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:518297   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:518651   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:519948   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:520048   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:520173   warning  Unexpected comma in middle of array                                        no-sparse-arrays
+  1:520416   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:520695   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:520841   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:522841   warning  Unexpected comma in middle of array                                        no-sparse-arrays
+  1:522910   warning  Unexpected comma in middle of array                                        no-sparse-arrays
+  1:523091   warning  Unexpected comma in middle of array                                        no-sparse-arrays
+  1:524926   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:528101   warning  'n' is defined but never used                                              no-unused-vars
+  1:528609   warning  'n' is defined but never used                                              no-unused-vars
+  1:529774   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:532079   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:532674   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:533063   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:533162   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:533422   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:533521   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:535421   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:535939   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:540051   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:542187   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:542475   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:542943   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:546717   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:547753   warning  't' is defined but never used                                              no-unused-vars
+  1:552783   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:553678   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:554777   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:555664   warning  't' is defined but never used                                              no-unused-vars
+  1:555666   warning  'e' is defined but never used                                              no-unused-vars
+  1:557083   warning  't' is defined but never used                                              no-unused-vars
+  1:558596   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:560501   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:560919   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:561019   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:561296   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:561799   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:562120   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:564165   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:565584   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:566648   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:569248   warning  't' is defined but never used                                              no-unused-vars
+  1:570525   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:573264   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:575628   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:578387   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:581410   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:581968   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:583720   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:584927   warning  't' is defined but never used                                              no-unused-vars
+  1:584990   warning  't' is defined but never used                                              no-unused-vars
+  1:587223   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:588301   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:588689   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:589050   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:589252   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:590281   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:592871   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:594448   warning  't' is defined but never used                                              no-unused-vars
+  1:594450   warning  'e' is defined but never used                                              no-unused-vars
+  1:594452   warning  'r' is defined but never used                                              no-unused-vars
+  1:594700   warning  't' is defined but never used                                              no-unused-vars
+  1:594702   warning  'e' is defined but never used                                              no-unused-vars
+  1:595503   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:598688   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:601521   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:601690   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:601862   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:602053   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:602254   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:604222   warning  'r' is defined but never used                                              no-unused-vars
+  1:605266   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:611320   warning  't' is defined but never used                                              no-unused-vars
+  1:611513   warning  't' is defined but never used                                              no-unused-vars
+  1:614834   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:615182   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:615388   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:616864   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:620918   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:623795   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:627438   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:627616   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:628148   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:628482   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:628696   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:630608   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:697929   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:698994   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:699822   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:700155   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:700827   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:701208   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:712777   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:713262   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:713809   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:716567   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:717902   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:720532   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:722824   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:724503   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:728996   warning  't' is defined but never used                                              no-unused-vars
+  1:731885   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:732682   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:742497   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:743199   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:745008   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:746329   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:746845   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:747288   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:747688   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  1:747909   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  1:748517   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:749983   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:750690   warning  'r' is defined but never used                                              no-unused-vars
+  1:751250   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:752218   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:752395   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:752509   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:753420   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:753532   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:753625   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:754634   warning  'MathJax' is not defined                                                   no-undef
+  1:755688   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:755972   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:756420   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:756713   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:757389   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:758254   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:758541   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:758889   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:759227   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:759727   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:759949   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:760207   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:761933   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:762032   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:762370   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:762425   warning  't' is defined but never used                                              no-unused-vars
+  1:762814   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:763200   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:763681   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:766029   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:766075   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:767109   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:767639   warning  Unnecessary escape character: \[                                           no-useless-escape
+  1:767643   warning  Unnecessary escape character: \:                                           no-useless-escape
+  1:768133   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:769223   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:771336   warning  't' is defined but never used                                              no-unused-vars
+  1:771580   warning  't' is defined but never used                                              no-unused-vars
+  1:772188   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:772436   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:773879   warning  't' is defined but never used                                              no-unused-vars
+  1:774127   warning  't' is defined but never used                                              no-unused-vars
+  1:774782   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:775198   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:775613   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:776268   warning  't' is defined but never used                                              no-unused-vars
+  1:776300   warning  't' is defined but never used                                              no-unused-vars
+  1:776331   warning  't' is defined but never used                                              no-unused-vars
+  1:776363   warning  't' is defined but never used                                              no-unused-vars
+  1:776392   warning  't' is defined but never used                                              no-unused-vars
+  1:776423   warning  't' is defined but never used                                              no-unused-vars
+  1:777613   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:778541   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:779486   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:780694   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:782093   warning  't' is defined but never used                                              no-unused-vars
+  1:782361   warning  't' is defined but never used                                              no-unused-vars
+  1:782426   warning  't' is defined but never used                                              no-unused-vars
+  1:790880   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:792286   warning  't' is defined but never used                                              no-unused-vars
+  1:792402   warning  't' is defined but never used                                              no-unused-vars
+  1:793487   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:794750   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:796172   warning  't' is defined but never used                                              no-unused-vars
+  1:796872   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:797750   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:798542   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:799800   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:800444   warning  't' is defined but never used                                              no-unused-vars
+  1:800723   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:802826   warning  't' is defined but never used                                              no-unused-vars
+  1:802933   warning  't' is defined but never used                                              no-unused-vars
+  1:803885   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:806112   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:807077   warning  Empty block statement                                                      no-empty
+  1:808685   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:808954   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:812536   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:814457   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:815220   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:815661   warning  Unsafe usage of ThrowStatement                                             no-unsafe-finally
+  1:818723   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:820120   warning  't' is defined but never used                                              no-unused-vars
+  1:820122   warning  'e' is defined but never used                                              no-unused-vars
+  1:820540   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1:821647   warning  't' is defined but never used                                              no-unused-vars
+  1:823774   warning  't' is defined but never used                                              no-unused-vars
+  1:823840   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:824450   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:825170   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:827791   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:827942   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:828483   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:831956   warning  't' is defined but never used                                              no-unused-vars
+  1:832487   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:836938   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:838944   warning  't' is defined but never used                                              no-unused-vars
+  1:839845   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:840250   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:841516   warning  'wgxpath' is not defined                                                   no-undef
+  1:843060   warning  't' is defined but never used                                              no-unused-vars
+  1:848025   warning  'e' is defined but never used                                              no-unused-vars
+  1:849405   warning  'SREfeature' is not defined                                                no-undef
+  1:849700   warning  't' is defined but never used                                              no-unused-vars
+  1:851228   warning  This generator function does not have 'yield'                              require-yield
+  1:851817   warning  'e' is defined but never used                                              no-unused-vars
+  1:854615   warning  'e' is defined but never used                                              no-unused-vars
+  1:856193   warning  'e' is defined but never used                                              no-unused-vars
+  1:857736   warning  'e' is defined but never used                                              no-unused-vars
+  1:858631   warning  't' is defined but never used                                              no-unused-vars
+  1:860226   warning  This generator function does not have 'yield'                              require-yield
+  1:861413   warning  This generator function does not have 'yield'                              require-yield
+  1:862413   warning  'process' is not defined                                                   no-undef
+  1:864017   warning  'process' is not defined                                                   no-undef
+  1:870725   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:874119   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:881289   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:881830   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:886799   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:887472   warning  't' is defined but never used                                              no-unused-vars
+  1:888585   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:889210   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:890814   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:891491   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:891877   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:904126   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:905483   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:906801   warning  't' is defined but never used                                              no-unused-vars
+  1:907595   warning  't' is defined but never used                                              no-unused-vars
+  1:907745   warning  't' is defined but never used                                              no-unused-vars
+  1:912052   warning  't' is defined but never used                                              no-unused-vars
+  1:915572   warning  't' is defined but never used                                              no-unused-vars
+  1:918506   warning  'r' is defined but never used                                              no-unused-vars
+  1:918547   warning  'r' is defined but never used                                              no-unused-vars
+  1:918694   warning  'r' is defined but never used                                              no-unused-vars
+  1:918974   warning  't' is defined but never used                                              no-unused-vars
+  1:920982   warning  'e' is defined but never used                                              no-unused-vars
+  1:920984   warning  'r' is defined but never used                                              no-unused-vars
+  1:921088   warning  't' is defined but never used                                              no-unused-vars
+  1:921122   warning  'e' is defined but never used                                              no-unused-vars
+  1:922337   warning  'e' is defined but never used                                              no-unused-vars
+  1:926693   warning  'e' is defined but never used                                              no-unused-vars
+  1:929973   warning  'e' is defined but never used                                              no-unused-vars
+  1:933467   warning  'e' is defined but never used                                              no-unused-vars
+  1:936013   warning  'e' is defined but never used                                              no-unused-vars
+  1:937448   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:938101   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:938351   warning  't' is defined but never used                                              no-unused-vars
+  1:938680   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:939928   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:942648   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:944526   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:945712   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:950526   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:953761   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:954330   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:955237   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:957785   warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  1:959747   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:961941   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:963010   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:964926   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:966525   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:966698   warning  'r' is defined but never used                                              no-unused-vars
+  1:967243   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:968619   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:970352   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:972937   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1007777  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1010347  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1010921  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1011567  warning  't' is defined but never used                                              no-unused-vars
+  1:1014557  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1014993  warning  't' is defined but never used                                              no-unused-vars
+  1:1015210  warning  't' is defined but never used                                              no-unused-vars
+  1:1015426  warning  't' is defined but never used                                              no-unused-vars
+  1:1022263  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1022613  warning  't' is defined but never used                                              no-unused-vars
+  1:1022615  warning  'e' is defined but never used                                              no-unused-vars
+  1:1022753  warning  'e' is defined but never used                                              no-unused-vars
+  1:1024336  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1024409  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1024623  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1025555  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1026114  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1027624  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1027839  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1028083  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1029910  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1030819  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1037071  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1038862  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1040119  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1040385  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1041249  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1044018  warning  'n' is defined but never used                                              no-unused-vars
+  1:1044536  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1044572  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1046994  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1047161  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1051319  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1052959  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1053488  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1066426  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1068361  warning  'r' is assigned to itself                                                  no-self-assign
+  1:1069741  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1070058  warning  't' is assigned to itself                                                  no-self-assign
+  1:1070354  warning  't' is assigned to itself                                                  no-self-assign
+  1:1070863  warning  't' is assigned to itself                                                  no-self-assign
+  1:1072338  warning  'e' is defined but never used                                              no-unused-vars
+  1:1073032  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1073992  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1076895  warning  'e' is defined but never used                                              no-unused-vars
+  1:1076954  warning  'e' is defined but never used                                              no-unused-vars
+  1:1077655  warning  'e' is defined but never used                                              no-unused-vars
+  1:1077893  warning  't' is defined but never used                                              no-unused-vars
+  1:1077895  warning  'e' is defined but never used                                              no-unused-vars
+  1:1079957  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1080752  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1081388  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1083928  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1085275  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1093466  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1095297  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1096962  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1099021  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1107378  warning  'e' is defined but never used                                              no-unused-vars
+  1:1107641  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1108567  warning  This generator function does not have 'yield'                              require-yield
+  1:1108709  warning  This generator function does not have 'yield'                              require-yield
+  1:1108842  warning  This generator function does not have 'yield'                              require-yield
+  1:1113634  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1113834  warning  't' is defined but never used                                              no-unused-vars
+  1:1114105  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1119915  warning  't' is defined but never used                                              no-unused-vars
+  1:1120267  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1120709  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1121703  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1129555  warning  'e' is defined but never used                                              no-unused-vars
+  1:1140444  warning  't' is defined but never used                                              no-unused-vars
+  1:1140446  warning  'e' is defined but never used                                              no-unused-vars
+  1:1140448  warning  'r' is defined but never used                                              no-unused-vars
+  1:1140450  warning  'n' is defined but never used                                              no-unused-vars
+  1:1140479  warning  't' is defined but never used                                              no-unused-vars
+  1:1142258  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1155285  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1:1155933  warning  '__webpack_exports__' is assigned a value but never used                   no-unused-vars
+  1:1156216  warning  'MathJax' is not defined                                                   no-undef
+  1:1156232  warning  'MathJax' is not defined                                                   no-undef
+  1:1158984  warning  'MathJax' is not defined                                                   no-undef
+  1:1159046  warning  'MathJax' is not defined                                                   no-undef
+  1:1159204  warning  'MathJax' is not defined                                                   no-undef
+  1:1159262  warning  'MathJax' is not defined                                                   no-undef
+  1:1161731  warning  'MathJax' is not defined                                                   no-undef
+  1:1161747  warning  'MathJax' is not defined                                                   no-undef
+  1:1162808  warning  'MathJax' is not defined                                                   no-undef
+  1:1162826  warning  'MathJax' is not defined                                                   no-undef
+  1:1162892  warning  'MathJax' is not defined                                                   no-undef
+  1:1162963  warning  'MathJax' is not defined                                                   no-undef
+  1:1163005  warning  'MathJax' is not defined                                                   no-undef
+  1:1163051  warning  'MathJax' is not defined                                                   no-undef
+  1:1163068  warning  'MathJax' is not defined                                                   no-undef
+  1:1163123  warning  'MathJax' is not defined                                                   no-undef
+  1:1164109  warning  'MathJax' is not defined                                                   no-undef
+  1:1164125  warning  'MathJax' is not defined                                                   no-undef
+  1:1165123  warning  'MathJax' is not defined                                                   no-undef
+  1:1165144  warning  'MathJax' is not defined                                                   no-undef
+  1:1165186  warning  'MathJax' is not defined                                                   no-undef
+  1:1165214  warning  'MathJax' is not defined                                                   no-undef
+  1:1165247  warning  'MathJax' is not defined                                                   no-undef
+  1:1165268  warning  'MathJax' is not defined                                                   no-undef
+  1:1165297  warning  'MathJax' is not defined                                                   no-undef
+  1:1165325  warning  'MathJax' is not defined                                                   no-undef
+  1:1165372  warning  'MathJax' is not defined                                                   no-undef
+  1:1165576  warning  'MathJax' is not defined                                                   no-undef
+  1:1165592  warning  'MathJax' is not defined                                                   no-undef
+  1:1165744  warning  'MathJax' is not defined                                                   no-undef
+  1:1165762  warning  'MathJax' is not defined                                                   no-undef
+  1:1165815  warning  'MathJax' is not defined                                                   no-undef
+  1:1165848  warning  'MathJax' is not defined                                                   no-undef
+  1:1165864  warning  'MathJax' is not defined                                                   no-undef
+  1:1167848  warning  'MathJax' is not defined                                                   no-undef
+  1:1167864  warning  'MathJax' is not defined                                                   no-undef
+  1:1168676  warning  'MathJax' is not defined                                                   no-undef
+  1:1168714  warning  'MathJax' is not defined                                                   no-undef
+  1:1168781  warning  'MathJax' is not defined                                                   no-undef
+  1:1168830  warning  'MathJax' is not defined                                                   no-undef
+  1:1168848  warning  'MathJax' is not defined                                                   no-undef
+  1:1168902  warning  'MathJax' is not defined                                                   no-undef
+  1:1170190  warning  'MathJax' is not defined                                                   no-undef
+  1:1170206  warning  'MathJax' is not defined                                                   no-undef
+  1:1171060  warning  'MathJax' is not defined                                                   no-undef
+  1:1171099  warning  'MathJax' is not defined                                                   no-undef
+  1:1171224  warning  'MathJax' is not defined                                                   no-undef
+  1:1171291  warning  'MathJax' is not defined                                                   no-undef
+  1:1171489  warning  'MathJax' is not defined                                                   no-undef
+  1:1171505  warning  'MathJax' is not defined                                                   no-undef
+  1:1171675  warning  'MathJax' is not defined                                                   no-undef
+  1:1171720  warning  'MathJax' is not defined                                                   no-undef
+  1:1171936  warning  'MathJax' is not defined                                                   no-undef
+  1:1171952  warning  'MathJax' is not defined                                                   no-undef
+  1:1172077  warning  'MathJax' is not defined                                                   no-undef
+  1:1172094  warning  'MathJax' is not defined                                                   no-undef
+
+✖ 822 problems (0 errors, 822 warnings)
+
